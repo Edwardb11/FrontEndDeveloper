@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    /* primer valor eje x, segundo valor eje y tercer valor es difimunado y color */
+    text-shadow: 2px 2px 5px grey;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+        /* primer valor eje x, segundo valor eje y tercer valor es difimunado, cuarto valor, quinto hacer la somnbra mas grande y color */
+
+    box-shadow: 2px 2px 2px 2px grey;
+}
