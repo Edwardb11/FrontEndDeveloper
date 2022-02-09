@@ -19,7 +19,7 @@
           <label for="operandoA">Operando A</label>
           <input
             type="number"
-            class="form-control"
+            class="form-control-sm"
             placeholder="Escribe operando A"
             id="operandoA"
           />
@@ -28,13 +28,38 @@
           <label for="operandoB">Operando B</label>
           <input
             type="number"
-            class="form-control"
+            class="form-control-sm "
             placeholder="Escribe operando B"
             id="operandoB"
           />
         </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="Suma" checked>
+          <label class="form-check-label" for="Suma">
+            Suma
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="Resta" >
+          <label class="form-check-label" for="Resta">
+            Resta
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="Multiplicacion" >
+          <label class="form-check-label" for="Multiplicacion">
+            Multiplicacion
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="Division" >
+          <label class="form-check-label" for="Division">
+            Division
+          </label>
+        </div>
       </form>
-      <button class="btn btn-primary mb-3" onclick="sumar()">Sumar</button>
+      <button class="btn btn-primary mb-3" onclick="sumar()">Calcular</button>
+      <button class="btn btn-secondary mb-3" onclick="reset()">Restablecer</button>
       <div id="resultado"></div>
     </div>
     <script
