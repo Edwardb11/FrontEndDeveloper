@@ -33,30 +33,13 @@
             id="operandoB"
           />
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="Suma" checked>
-          <label class="form-check-label" for="Suma">
-            Suma
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="Resta" >
-          <label class="form-check-label" for="Resta">
-            Resta
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="Multiplicacion" >
-          <label class="form-check-label" for="Multiplicacion">
-            Multiplicacion
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="Division" >
-          <label class="form-check-label" for="Division">
-            Division
-          </label>
-        </div>
+        <select class="custom-select mb-2" id="operacion">
+          <option value="Suma">Suma</option>
+          <option value="Resta">Resta</option>
+          <option value="Multiplicacion">Multiplicación</option>
+          <option value="Division">Division</option>
+          <option value="exponenciacion">Exponenciación</option>
+        </select>
       </form>
       <button class="btn btn-primary mb-3" onclick="sumar()">Calcular</button>
       <button class="btn btn-secondary mb-3" onclick="reset()">Restablecer</button>
